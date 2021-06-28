@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: -webkit-fill-available;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  color: red;
+  background: black;
+  font-family: Consolas;
+  font-style: italic;
+}
+
+.container > div {
+  font-size: 10rem;
+}
+
+.container > div:nth-child(7) {
+  font-size: 7rem;
+}
